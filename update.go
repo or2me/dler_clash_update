@@ -11,7 +11,7 @@ import (
 var head string = "port: 7890\nsocks-port: 7891\nmode: Rule\nlog-level: info"
 
 func main() {
-	listUrl := "https://dler.cloud/subscribe/7STNYcUTWCmuEMiA?protocols=ss&list=clash"
+	listUrl := "https://dler.cloud/subscribe/xxxx?protocols=ss&list=clash"
 
 	// Get the data
 	resp, err := http.Get(listUrl)
